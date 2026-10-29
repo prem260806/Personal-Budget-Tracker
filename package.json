@@ -1,0 +1,13 @@
+{
+  "name": "spendwise-mern-app",
+  "version": "1.0.0",
+  "description": "Personal Budget & Expense Tracker - Full Stack MERN Application",
+  "scripts": {
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": ["mern", "react", "express", "mongodb", "budget-tracker"],
+  "author": "",
+  "license": "ISC"
+}
